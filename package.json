@@ -1,0 +1,11 @@
+{
+  "name": "shellroute-playwright-example",
+  "private": true,
+  "devDependencies": {
+    "@playwright/test": "^1.60.0"
+  },
+  "scripts": {
+    "test:us": "shellroute run US -- npx playwright test",
+    "test:de": "shellroute run DE -- npx playwright test"
+  }
+}
